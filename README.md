@@ -1,1 +1,1 @@
-# Azure DevOps API (usin PAT)
+# Azure DevOps API (using PAT)
