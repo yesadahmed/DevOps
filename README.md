@@ -1,4 +1,5 @@
 # Azure DevOps API using PAT
 
 ##Controllers
-!(https://github.com/yesadahmed/DevOps/blob/master/devopsapi_controller.PNG?raw=true)
+
+![Image of Controllers(https://raw.githubusercontent.com/yesadahmed/DevOps/master/devopsapi_controller.PNG)
