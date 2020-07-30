@@ -20,10 +20,10 @@ namespace PowerBuildToolDevOpsAPI.DevOpsBuilds.Manager.BuildManager
     public class BuildManager
     {
         #region Memebers
-        //const String c_collectionUri = "https://dev.azure.com/columbusnorway";
-        //const String c_projectName = "GS1";
-        //const String c_repoName = "GS1";
-        //const string personalaccesstoken = "2momoutntzni7sywbokezhdxx55rgtntzm2jtbjtxyyzhhf4ui4a";
+        //const String c_collectionUri = "https://dev.azure.com/";
+        //const String c_projectName = "1";
+        //const String c_repoName = "S1";
+        //const string personalaccesstoken = "2m2jtbjtxyyzhhf4ui4a";
         private readonly ObjectPool<DevOpsConnectionPool> _builderPool;
 
         #endregion
@@ -69,7 +69,7 @@ namespace PowerBuildToolDevOpsAPI.DevOpsBuilds.Manager.BuildManager
                          Parameters = "{\"SolutionName\":\"" + solname + "\",\"system.debug\":\"false\"}"
                      });
 
-                     var status = await buildclient.GetBuildAsync("GS1", res.Id);//call after some time
+                     var status = await buildclient.GetBuildAsync("1", res.Id);//call after some time
                      buildId = status.Id;
                  }*/
             }

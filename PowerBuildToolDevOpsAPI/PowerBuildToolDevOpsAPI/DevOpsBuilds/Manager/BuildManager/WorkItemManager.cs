@@ -19,10 +19,10 @@ namespace PowerBuildToolDevOpsAPI.DevOpsBuilds.Manager.BuildManager
     {
 
         #region Data Memebers
-        //const String c_collectionUri = "https://dev.azure.com/columbusnorway";
-        //const String c_projectName = "GS1";
-        //const String c_repoName = "GS1";
-        //const string personalaccesstoken = "2momoutntzni7sywbokezhdxx55rgtntzm2jtbjtxyyzhhf4ui4a";
+        //const String c_collectionUri = "https://dev.azure.com/";
+        //const String c_projectName = "S1";
+        //const String c_repoName = "1";
+        //const string personalaccesstoken = "zm2jtbjtxyyzhhf4ui4a";
         private readonly ObjectPool<DevOpsConnectionPool> _builderPool;
 
         public static string Task { get { return "Task"; } }

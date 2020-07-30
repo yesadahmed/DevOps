@@ -279,7 +279,6 @@ C:\Users\adsa\source\repos\Git\DevOps\PowerBuildToolDevOpsAPI\PowerBuildToolDevO
 C:\Users\adsa\source\repos\Git\DevOps\PowerBuildToolDevOpsAPI\PowerBuildToolDevOpsAPI\bin\Release\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
 C:\Users\adsa\source\repos\Git\DevOps\PowerBuildToolDevOpsAPI\PowerBuildToolDevOpsAPI\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
 C:\Users\adsa\source\repos\Git\DevOps\PowerBuildToolDevOpsAPI\PowerBuildToolDevOpsAPI\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\adsa\source\repos\Git\DevOps\PowerBuildToolDevOpsAPI\PowerBuildToolDevOpsAPI\obj\Release\netcoreapp3.1\PowerBuildToolDevOpsAPI.csprojAssemblyReference.cache
 C:\Users\adsa\source\repos\Git\DevOps\PowerBuildToolDevOpsAPI\PowerBuildToolDevOpsAPI\obj\Release\netcoreapp3.1\PowerBuildToolDevOpsAPI.AssemblyInfoInputs.cache
 C:\Users\adsa\source\repos\Git\DevOps\PowerBuildToolDevOpsAPI\PowerBuildToolDevOpsAPI\obj\Release\netcoreapp3.1\PowerBuildToolDevOpsAPI.AssemblyInfo.cs
 C:\Users\adsa\source\repos\Git\DevOps\PowerBuildToolDevOpsAPI\PowerBuildToolDevOpsAPI\obj\Release\netcoreapp3.1\PowerBuildToolDevOpsAPI.csproj.CoreCompileInputs.cache

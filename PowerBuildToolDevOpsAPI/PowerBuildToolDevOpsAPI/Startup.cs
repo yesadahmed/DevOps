@@ -18,7 +18,7 @@ using Microsoft.OpenApi.Models;
 using Polly;
 using Polly.Extensions.Http;
 using PowerBuildToolDevOpsAPI.ConfigSections;
-using PowerBuildToolDevOpsAPI.CRMOperations;
+
 using PowerBuildToolDevOpsAPI.DevOpsBuilds;
 using PowerBuildToolDevOpsAPI.ObjectPooling;
 
@@ -80,7 +80,7 @@ namespace PowerBuildToolDevOpsAPI
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "DevOps API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "DevOps SDK API", Version = "v1" });
             });
 
         }

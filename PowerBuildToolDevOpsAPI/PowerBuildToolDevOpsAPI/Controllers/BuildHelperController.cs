@@ -171,7 +171,7 @@ namespace PowerBuildToolDevOpsAPI.Controllers
         }
 
 
-        //https://localhost:44367/api/BuildHelper/getbuildlogs/gs1/102
+  
 
 
     }
