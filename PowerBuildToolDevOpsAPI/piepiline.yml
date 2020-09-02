@@ -1,0 +1,24 @@
+steps:
+- task: microsoft-IsvExpTools.PowerPlatform-BuildTools.tool-installer.PowerPlatformToolInstaller@0
+  displayName: 'Power Platform Tool Installer '
+  inputs:
+    PowerAppsAdminVersion: 2.0.61
+    XrmToolingPackageDeploymentVersion: 3.3.0.882
+    CrmSdkCoreToolsVersion: 9.1.0.39
+
+- task: microsoft-IsvExpTools.PowerPlatform-BuildTools.export-solution.PowerPlatformExportSolution@0
+  displayName: 'Power Platform Export Solution '
+  inputs:
+    PowerPlatformEnvironment: CrmDevConnection
+    SolutionName: '$(SolutionName)'
+    SolutionOutputFile: '$(Build.ArtifactStagingDirectory)\$(SolutionName).zip'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+
+- task: microsoft-IsvExpTools.PowerPlatform-BuildTools.import-solution.PowerPlatformImportSolution@0
+  displayName: 'Power Platform Import Solution '
+  inputs:
+    PowerPlatformEnvironment: CrmTestConnection
+    SolutionInputFile: '$(Build.ArtifactStagingDirectory)\$(SolutionName).zip'
+    MaxAsyncWaitTime: 240
